@@ -1,8 +1,8 @@
 @import url("../fonts/Anuphan/Anuphan.css"); /* Using a url */
-@import url("../fonts/Roboto_Condensed/stylesheet.css"); /* Using a url */
+@import url("../fonts/Poppins/stylesheet.css"); /* Using a url */
 
 @font-face {
-  font-family: "roboto_con";
+  font-family: "Poppins";
   /* unicode-range: U+41-5A, U+61-7A, U+C0-FF; */
 }
 
@@ -15,5 +15,5 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "roboto_con", "Anuphan";
+  font-family: "Poppins", "Anuphan";
 }
