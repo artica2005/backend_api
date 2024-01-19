@@ -1,19 +1,19 @@
 @import url("../fonts/Anuphan/Anuphan.css"); /* Using a url */
-@import url("../fonts/Poppins/stylesheet.css"); /* Using a url */
+@import url("../fonts/Poppin/stylesheet.css"); /* Using a url */
 
 @font-face {
-  font-family: "Poppins";
+  font-family: "poppinsregular";
   /* unicode-range: U+41-5A, U+61-7A, U+C0-FF; */
 }
 
 @font-face {
   font-family: "Anuphan";
-  unicode-range: U+0E00-U+0E7F;
+  /* unicode-range: U+0E00-U+0E7F; */
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", "Anuphan";
+  font-family: "poppinsregular", "Anuphan";
 }
