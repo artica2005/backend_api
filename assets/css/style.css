@@ -1,12 +1,13 @@
-@import url("../fonts/NotoSansThaiLooped/NotoSansThaiLooped.css"); /* Using a url */
+@import url("../fonts/Anuphan/Anuphan.css"); /* Using a url */
 @import url("../fonts/Roboto_Condensed/stylesheet.css"); /* Using a url */
 
 @font-face {
   font-family: "roboto_con";
+  /* unicode-range: U+41-5A, U+61-7A, U+C0-FF; */
 }
 
 @font-face {
-  font-family: "Noto Sans Thai Looped";
+  font-family: "Anuphan";
   unicode-range: U+0E00-U+0E7F;
 }
 
@@ -14,5 +15,5 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "roboto_con", "Noto Sans Thai Looped";
+  font-family: "roboto_con", "Anuphan";
 }
