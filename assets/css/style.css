@@ -1,25 +1,18 @@
+@import url("../fonts/NotoSansThaiLooped/NotoSansThaiLooped.css"); /* Using a url */
+@import url("../fonts/Roboto_Condensed/stylesheet.css"); /* Using a url */
+
 @font-face {
-  font-family: "Roboto";
-}
-@font-face {
-  font-family: "noto-sans-thai";
-  unicode-range: U+0E00- U+0E7F;
+  font-family: "roboto_con";
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-button,
-input,
-b,
-strong,
-span,
-nav,
-p,
-body {
-  font-family: "Roboto", "noto-sans-thai";
+@font-face {
+  font-family: "Noto Sans Thai Looped";
+  unicode-range: U+0E00-U+0E7F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto_con", "Noto Sans Thai Looped";
 }
