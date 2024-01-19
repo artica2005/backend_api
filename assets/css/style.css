@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Roboto";
+}
+@font-face {
+  font-family: "noto-sans-thai";
+  unicode-range: U+0E00- U+0E7F;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button,
+input,
+b,
+strong,
+span,
+nav,
+p,
+body {
+  font-family: "Roboto", "noto-sans-thai";
+}
